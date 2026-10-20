@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f3ed">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="KAM Design. Arquitectura, visualización 3D y experiencias digitales. Una nueva visión para proyectos extraordinarios.">
+  <meta property="og:title" content="KAM DESIGN — Arquitectura, visualización y experiencias digitales">
+  <meta property="og:description" content="Diseño, tecnología y visión para transformar proyectos en experiencias.">
+  <title>KAM DESIGN — Arquitectura antes de existir | KAM Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="./assets/hero.webp" imagesrcset="./assets/hero-sm.webp 960w, ./assets/hero.webp 1619w" imagesizes="100vw" fetchpriority="high">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner container">
+      <a href="#inicio" class="brand brand-image" aria-label="KAM Design, ir al inicio"><img class="brand-logo" src="./assets/kam-logo.png" srcset="./assets/kam-logo-sm.png 271w, ./assets/kam-logo.png 425w" sizes="(max-width:620px) 88px, 104px" alt="KAM Design" width="425" height="220"></a>
+      <nav class="desktop-nav" aria-label="Menú principal">
+        <a href="#estudio">Estudio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="header-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil" inert>
+      <a href="#estudio">Estudio</a><a href="#proyectos">Proyectos</a><a href="#servicios">Servicios</a><a href="#digital">KAM Digital</a><a href="#proceso">Proceso</a><a href="#contacto">Contacto</a>
+      <span class="mobile-nav-tag">ARQUITECTURA · VISUALIZACIÓN · DIGITAL</span>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <!-- Sustituir por <video autoplay muted loop playsinline poster="assets/hero.webp"> cuando Alex entregue el recorrido. -->
+        <img class="hero-photo" src="./assets/hero.webp" srcset="./assets/hero-sm.webp 960w, ./assets/hero.webp 1619w" sizes="100vw" alt="" width="1619" height="971" fetchpriority="high" decoding="async">
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow hero-eyebrow">VISUALIZAMOS<br>ESPACIOS EXTRAORDINARIOS</p>
+          <h1 id="hero-title">La arquitectura,<br><em>antes de existir.</em></h1>
+          <p class="hero-description">Visualización 3D, diseño arquitectónico<br class="desktop-break"> y experiencias digitales que transforman ideas<br class="desktop-break"> en realidades extraordinarias.</p>
+          <div class="hero-actions"><a class="btn btn-gold" href="#proyectos">Ver proyectos <span aria-hidden="true">→</span></a><a class="btn btn-outline" href="#contacto">Hablemos</a></div>
+        </div>
+        <div class="hero-caption"><span class="hero-count">01 / 01</span><span class="vertical-rule"></span><span>ARQUITECTURA<br>DISEÑO<br>VISUALIZACIÓN</span></div>
+      </div>
+      <a class="scroll-indicator" href="#estudio" aria-label="Desplazarse a El estudio"><span></span></a>
+    </section>
+
+    <section class="studio-section section-pad" id="estudio" aria-labelledby="studio-title">
+      <div class="container studio-layout">
+        <div class="studio-copy" data-reveal>
+          <p class="eyebrow gold-kicker">EL ESTUDIO</p>
+          <h2 class="display-title" id="studio-title">Diseño, tecnología<br>y visión.</h2>
+          <p class="body-copy">En KAM DESIGN creemos en el poder de la imagen para dar forma a mejores espacios. Somos un estudio de arquitectura y visualización que combina creatividad, tecnología y experiencia para convertir ideas en lugares extraordinarios, incluso antes de existir.</p>
+          <a class="outline-action" href="#contacto">Conoce más sobre nosotros <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="studio-image picture-frame" data-reveal><img src="./assets/studio.webp" srcset="./assets/studio-sm.webp 960w, ./assets/studio.webp 1448w" sizes="(max-width:620px) 100vw, 50vw" alt="Entrada monumental de una residencia contemporánea rodeada de naturaleza" loading="lazy" decoding="async" width="1448" height="1086"></div>
+        <div class="studio-aside" data-reveal><span class="side-line"></span><p>ESPACIOS<br>QUE INSPIRAN<br>PERSONAS</p></div>
+      </div>
+    </section>
+
+    <section class="projects-section section-pad" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-top" data-reveal><div><p class="eyebrow gold-kicker">PROYECTOS</p><h2 class="display-title" id="projects-title">Ideas que se convierten en espacios</h2></div><a class="text-action" href="#contacto">Ver todos los proyectos <span aria-hidden="true">→</span></a></div>
+        <div class="projects-grid">
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Casa Cantera"><img src="./assets/project-casa-cantera.webp" srcset="./assets/project-casa-cantera-sm.webp 960w, ./assets/project-casa-cantera.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Residencia con piscina y volúmenes de piedra al atardecer" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Casa Cantera</h3><p>RESIDENCIAL | CONCEPTO</p></div></article>
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Residencia Panorama"><img src="./assets/project-residencia-panorama.webp" srcset="./assets/project-residencia-panorama-sm.webp 960w, ./assets/project-residencia-panorama.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Sala de residencia con ventanales y vista panorámica" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Residencia Panorama</h3><p>RESIDENCIAL | CONCEPTO</p></div></article>
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Oficina Corporativa"><img src="./assets/project-oficina-corporativa.webp" srcset="./assets/project-oficina-corporativa-sm.webp 960w, ./assets/project-oficina-corporativa.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Arquitectura corporativa contemporánea de madera y cristal" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Oficina Corporativa</h3><p>CORPORATIVO | CONCEPTO</p></div></article>
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Casa Valle"><img src="./assets/project-casa-valle.webp" srcset="./assets/project-casa-valle-sm.webp 960w, ./assets/project-casa-valle.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Residencia integrada al paisaje con terraza y piscina" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Casa Valle</h3><p>RESIDENCIAL | CONCEPTO</p></div></article>
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Casa Mirador"><img src="./assets/project-casa-mirador.webp" srcset="./assets/project-casa-mirador-sm.webp 960w, ./assets/project-casa-mirador.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Residencia con piscina y vistas a un paisaje montañoso" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Casa Mirador</h3><p>RESIDENCIAL | CONCEPTO</p></div></article>
+          <article class="project-card" data-reveal><a class="project-photo" href="#contacto" aria-label="Consultar proyecto Hotel Serna"><img src="./assets/project-hotel-serna.webp" srcset="./assets/project-hotel-serna-sm.webp 960w, ./assets/project-hotel-serna.webp 1536w" sizes="(max-width:620px) 100vw, (max-width:850px) 48vw, 33vw" alt="Interior de hospitalidad contemporánea con vistas abiertas" width="1536" height="1024" loading="lazy" decoding="async"><span class="project-arrow" aria-hidden="true">↗</span></a><div class="project-label"><h3>Hotel Serna</h3><p>HOSPITALIDAD | CONCEPTO</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section section-pad" id="servicios" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-top services-heading" data-reveal>
+          <div><p class="eyebrow gold-kicker">SERVICIOS</p><h2 class="display-title" id="services-title">Soluciones para cada etapa<br>de tu proyecto</h2></div>
+          <p class="services-lead">Combinamos arquitectura, visualización y tecnología para ofrecer soluciones integrales que impulsan mejores proyectos.</p>
+        </div>
+        <div class="service-grid">
+          <a class="service-card" href="#contacto" data-reveal><svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.35"><path d="m24 3 17 10v22L24 45 7 35V13L24 3Z"/><path d="m7 13 17 10 17-10M24 23v22"/></svg><h3>Renderizado<br>fotorrealista</h3><p>Imágenes que comunican<br>y venden ideas.</p><span class="service-more">→</span></a>
+          <a class="service-card" href="#contacto" data-reveal><svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.35"><path d="M4 40 24 6l20 34H4Z"/><path d="m15 35 9-14 8 14H15Zm9-14v-6m-9 20h17"/></svg><h3>Diseño<br>arquitectónico</h3><p>Espacios funcionales,<br>éticos y atemporales.</p><span class="service-more">→</span></a>
+          <a class="service-card" href="#contacto" data-reveal><svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.35"><path d="m6 15 18-10 18 10-18 10L6 15Zm0 9 18 10 18-10M6 33l18 10 18-10"/></svg><h3>Modelado 3D</h3><p>Base sólida para<br>visualizar y construir.</p><span class="service-more">→</span></a>
+          <a class="service-card" href="#contacto" data-reveal><svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.35"><circle cx="24" cy="24" r="19"/><path d="m19 14 15 10-15 10V14Z"/></svg><h3>Animación<br>arquitectónica</h3><p>Recorridos que cuentan<br>historias.</p><span class="service-more">→</span></a>
+          <a class="service-card" href="#contacto" data-reveal><svg class="service-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.35"><path d="M10 4h20l8 8v32H10V4Z"/><path d="M30 4v9h8M16 21h16M16 28h16M16 35h11"/></svg><h3>Anteproyecto<br>y ejecutivo</h3><p>De la idea al plano,<br>con precisión.</p><span class="service-more">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="digital-section" id="digital" aria-labelledby="digital-title">
+      <div class="container digital-layout">
+        <div class="digital-copy" data-reveal><p class="eyebrow">KAM DIGITAL</p><h2 class="display-title" id="digital-title">Experiencias digitales<br>para un mundo real.</h2><p class="body-copy">Extendemos nuestra visión al mundo digital. KAM Digital crea sitios web, experiencias interactivas y estrategias de marketing que conectan arquitectura, marcas y personas.</p><a class="outline-action" href="#contacto">Conoce KAM Digital <span aria-hidden="true">→</span></a></div>
+        <div class="digital-image picture-frame" data-reveal><img src="./assets/digital.webp" srcset="./assets/digital-sm.webp 960w, ./assets/digital.webp 1448w" sizes="(max-width:620px) 100vw, 50vw" alt="Presentación de una experiencia web de arquitectura en una laptop" width="1448" height="1086" loading="lazy" decoding="async"></div>
+        <div class="digital-services" data-reveal>
+          <div class="digital-service"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c-6 7-6 17 0 24M16 4c6 7 6 17 0 24"/></svg><div><h3>Diseño web</h3><p>Sitios a la medida de tu marca.</p></div></div>
+          <div class="digital-service"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="24" height="24" rx="2"/><path d="M4 11h24M10 8h1m4 0h1"/></svg><div><h3>Landing pages</h3><p>Convierte ideas en oportunidades.</p></div></div>
+          <div class="digital-service"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m16 2 12 7v14l-12 7-12-7V9L16 2Z"/><path d="m4 9 12 7 12-7m-12 7v14"/></svg><div><h3>Experiencias interactivas</h3><p>Tecnología que genera conexión.</p></div></div>
+          <div class="digital-service"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 27V15m7 12V9m7 18V4m7 23V13"/></svg><div><h3>Marketing digital</h3><p>Estrategias que amplifican tu visión.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-section" id="proceso" aria-labelledby="process-title">
+      <div class="container process-layout">
+        <div class="process-heading" data-reveal><p class="eyebrow gold-kicker">PROCESO</p><h2 class="display-title" id="process-title">Un camino<br>colaborativo</h2></div>
+        <div class="process-steps">
+          <article class="process-step" data-reveal><span class="process-number">01</span><h3>Escuchamos</h3><p>Entendemos tus objetivos<br>y necesidades.</p></article>
+          <article class="process-step" data-reveal><span class="process-number">02</span><h3>Conceptualizamos</h3><p>Exploramos ideas y<br>definimos la visión.</p></article>
+          <article class="process-step" data-reveal><span class="process-number">03</span><h3>Visualizamos</h3><p>Damos forma a la idea<br>con imágenes y experiencias.</p></article>
+          <article class="process-step" data-reveal><span class="process-number">04</span><h3>Perfeccionamos</h3><p>Cuidamos cada detalle<br>hasta lograrlo.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+      <div class="contact-photo" aria-hidden="true"></div><div class="contact-shade" aria-hidden="true"></div>
+      <div class="container contact-layout"><div class="contact-copy" data-reveal><p class="eyebrow">CONTACTO</p><h2 id="contact-title">Hablemos de tu<br>próximo proyecto.</h2><p>Nos encantaría conocer tu idea y explorar juntos<br class="desktop-break"> cómo hacerla realidad.</p><a class="btn btn-gold" href="mailto:info@kamdesignmx.com?subject=Proyecto%20para%20KAM%20Design">Hablemos <span aria-hidden="true">→</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout"><div class="footer-brand-block"><a class="brand brand-image footer-brand-logo" href="#inicio" aria-label="KAM Design, volver al inicio"><img class="brand-logo" src="./assets/kam-logo.png" srcset="./assets/kam-logo-sm.png 271w, ./assets/kam-logo.png 425w" sizes="100px" alt="KAM Design" width="425" height="220"></a><p>ARQUITECTURA | VISUALIZACIÓN | EXPERIENCIAS DIGITALES</p></div><div class="footer-contact"><a href="mailto:info@kamdesignmx.com">info@kamdesignmx.com</a><span>Cancún, México</span></div><nav class="footer-nav" aria-label="Navegación de pie de página"><a href="#estudio">Estudio</a><a href="#proyectos">Proyectos</a><a href="#servicios">Servicios</a><a href="#digital">KAM Digital</a><a href="#contacto">Contacto</a></nav></div>
+    <div class="container footer-bottom"><span>© <span id="current-year">2026</span> KAM DESIGN</span><span>IDEAS HOY. ESPACIOS MAÑANA.</span></div>
+  </footer>
+</body>
+</html>
